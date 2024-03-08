@@ -24,10 +24,10 @@ export default function Index({data}) {
         </div>
 <div className="grid sm:grid-cols-1 sm:mt-10 mt-10 sm:space-x-8">
 When I was 4 or 5, I remember looking inside of PCBs inside of clocks, toys and some cheap-ass bluetooth headphones.
-My coding adventure started at when I was 7, I was about to learn JavaScript but that didn't come to the reality.
+My coding adventure started at when I was 7, I was about to learn JavaScript but that did not come to the reality.
 So instead of it I started learning when I was 8,
 then when I was 10 to 11, I learnt Java,
-and it didn't go well because I never thought that Java was easy and I didn't practice it.
+and it did not go well because I never thought that Java was easy and I did not practice it.
 When I was 12, I learnt Bash, HTML and CSS. And finally,
 When I was 13, I learnt React, JS, Vue, Next.js, and Python!
 </div>
