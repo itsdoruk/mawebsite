@@ -1,13 +1,13 @@
 import Head from "next/head";
 
-export default function Meta({ children }) {
-   const title = "dSplash.xyz: born in time to explore computers";
-   const description = "student. developer. designer.";
+export default function Meta() {
+   const title = "dSplash.xyz: born just in time to explore computers";
+   const description = "student by day, open source coder by night. ";
    const keywords =
-      "istanbul, hack club, doruk sarp aydın, dsplash, react, nextjs, bash, young developer";
+      "istanbul, hack club, doruk sarp aydın, dsplash, react, nextjs, bash, young developer, linux";
    const author = "Doruk Sarp Aydın";
    const image =
-      "https://cloud-3ri5zqk55-hack-club-bot.vercel.app/0aramshiva.png";
+      "https://cloud-e87zjwx91-hack-club-bot.vercel.app/0coral_1fab8.png";
    return (
       <Head>
          <meta charSet="utf-8" />
