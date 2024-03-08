@@ -33,7 +33,7 @@ Sprig (2023 - 2024)
                      href="https://sprig.hackclub.com"
                      className="underline decoration-blue-1 decoration-1 underline-offset-1"
                   >
-                    Sprig's website.
+                    Sprig{"'"}s website.
                   </Link>
                   <div className="grid sm:grid-cols-1 sm:mt-10 mt-10 block text sm:text-4xl font-white font-bold">
 <DiReact />
@@ -44,7 +44,7 @@ This website! (2023 - 20XX)
                      href="https://dsplash.xyz"
                      className="underline decoration-blue-1 decoration-1 underline-offset-1"
                   >
-                  I used ChatGPT to create my first website, but it didn't worked!
+                  I used ChatGPT to create my first website, but it didn{"'"}t worked!
                   </Link>
                                     <div className="grid sm:grid-cols-1 sm:mt-10 mt-10 block text sm:text-4xl font-white font-bold">
 <BiLogoJavascript /> 
