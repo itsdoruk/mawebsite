@@ -1,4 +1,4 @@
-import Meta from "../components/meta.tsx";
+import Meta from "../components/meta";
 import "@/styles/globals.css";
 import { AppProps } from "next/app";
 import Navbar from "../components/nav";
