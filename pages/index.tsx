@@ -3,7 +3,7 @@ import Image from "next/image";
 import { age, message } from "../utils/myage";
 import istanbul from "../public/istanbul.jpg";
 
-export default function Index({data}) {
+export default function Index() {
   return (
     <>
       <div className="font-mono">
