@@ -24,7 +24,7 @@ export default function Works() {
           </span>
 Here are my works I have worked in the past or now.
         </div>
-<div className="grid sm:grid-cols-1 sm:mt-10 mt-10 block text sm:text-4xl font-white font-bold">
+<div className="grid sm:grid-cols-1 sm:mt-10 mt-10  text sm:text-4xl font-white font-bold">
 <SiAstro /> 
 Sprig (2023 - 2024)
 </div> 
@@ -35,7 +35,7 @@ Sprig (2023 - 2024)
                   >
                     Sprig{"'"}s website.
                   </Link>
-                  <div className="grid sm:grid-cols-1 sm:mt-10 mt-10 block text sm:text-4xl font-white font-bold">
+                  <div className="grid sm:grid-cols-1 sm:mt-10 mt-10 text sm:text-4xl font-white font-bold">
 <DiReact />
 This website! (2023 - 20XX)
 </div>
