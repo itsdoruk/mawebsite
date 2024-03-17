@@ -6,15 +6,15 @@ import Navbar from "../components/nav";
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
-      <div className="px-20">
-     <Meta>
-            </Meta>
-      <Navbar />
-      </div>
-      <div className="container mx-auto px-20">
-        <Component {...pageProps} />
+      <div className="h-screen w-screen dark:bg-black dark:text-white">
+        <div className="pb-10 pt-10 px-10">
+          <Meta></Meta>
+          <Navbar />
+        </div>
+        <div className="container mx-auto px-20">
+          <Component {...pageProps} />
+        </div>
       </div>
     </>
   );
 }
-
