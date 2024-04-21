@@ -16,7 +16,7 @@ export default function Index() {
          
          <span className="block text italic sm:text-4xl">
             Hello, {" "}
-            <span className="font-bold">World!</span>
+            <span className="font-white font-bold">World!</span>
           </span>
                  <span>
            Hi, My name is Doruk or (Derek if its hard to pronounce) I am <>{age}</> years old developer who lives in Europe.
