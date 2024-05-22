@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@tabler/icons-react": "^3.1.0",
-    "@tamagui/card": "^1.90.13",
+    "@tamagui/card": "^1.98.2",
     "clsx": "^2.1.0",
     "framer-motion": "^11.0.8",
     "next": "14.1.3",
