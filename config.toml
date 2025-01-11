@@ -1,9 +1,9 @@
-title = ""
-base_url = "https://duckquill.daudix.one"
+title = "dSplash"
+base_url = "https://dsplash.xyz"
 
 compile_sass = true
 minify_html = true
-build_search_index = true
+build_search_index = false
 author = "Doruk Sarp Aydın"
 
 default_language = "en"
@@ -19,9 +19,6 @@ highlight_themes_css = [
 ]
 smart_punctuation = true
 bottom_footnotes = true
-
-[search]
-index_format = "fuse_json"
 
 [extra]
 default_theme = "dark"
