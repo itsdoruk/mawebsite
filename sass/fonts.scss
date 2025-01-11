@@ -1,0 +1,53 @@
+@font-face {
+	font-style: normal;
+	font-weight: 100 900;
+	font-family: var(--font-system-ui);
+	font-display: swap;
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 100 900;
+	font-family: var(--font-system-ui);
+	font-display: swap;
+}
+
+@font-face {
+	font-style: normal;
+	font-weight: 100 900;
+	src: url("fonts/JetBrainsMono.woff2") format("woff2");
+	font-family: var(--font-system-ui);
+	font-display: swap;
+}
+
+@font-face {
+	font-style: italic;
+	font-weight: 100 900;
+	font-family: var(--font-system-ui);
+	font-display: swap;
+}
+
+body {
+	font-family: var(--font-system-ui), var(--font-emoji);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: bold;
+	font-family: var(--font-system-ui), var(--font-emoji);
+}
+
+h1 {
+	font-weight: 900;
+}
+
+pre,
+code,
+kbd,
+samp {
+	font-family: "JetBrains Mono", var(--font-monospace-code);
+}
