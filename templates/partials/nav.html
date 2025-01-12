@@ -72,7 +72,7 @@
             {%- endif %}
             {%- if config.languages | length > 0 %}
                 {%- include "partials/language_switcher.html" %}
-            {%- endif -%}
+            {%- endif %}
             {%- if config.extra.default_theme or config.extra.nav.show_theme_switcher  %}
                 <li id="theme-switcher">
                     <details class="closable">
@@ -87,7 +87,7 @@
                             </li>
                             <li>
                                 <button class="circle" id="theme-dark" title="{{ macros_translate::translate(key='theme_dark', default='Switch to Dark Theme', language_strings=language_strings) }}">
-                                                                        <i class="icon"></i>
+                                    <i class="icon"></i>
                                 </button>
                             </li>
                             <li>
