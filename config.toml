@@ -1,5 +1,5 @@
-title = ""
-base_url = "/"
+title = "dSplash"
+base_url = "dsplash.xyz"
 
 compile_sass = true
 minify_html = true
