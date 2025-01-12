@@ -1,5 +1,5 @@
 title = ""
-base_url = "https://duckquill.daudix.one"
+base_url = "https://mawebsite.vercel.app/"
 
 compile_sass = true
 minify_html = true
