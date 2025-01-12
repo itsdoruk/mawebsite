@@ -7,7 +7,7 @@ title = "Home"
 
 # **Hello, World!**
 
-Hi, My name is Doruk or (Derek if its hard to pronounce) I am a <span class="spoiler">14</span> year old developer who lives in Europe.
+Hi, My name is Doruk or (Derek if its hard to pronounce) I am a <span class="spoiler">15</span> year old developer who lives in Europe.
 
 
 When I was 4 or 5, I remember looking inside of PCBs inside of clocks, toys and some cheap-ass bluetooth headphones. My coding adventure started at when I was 7, I was about to learn JavaScript but that did not come to the reality. So instead of it I started learning when I was 8, then when I was 10 to 11, I learnt Java, and it did not go well because I never thought that Java was easy and I did not practice it. When I was 12, I learned Bash, HTML and CSS. And finally, When I was 13, I learned React, JS, Vue, Next.js and Python.
