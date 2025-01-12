@@ -45,7 +45,7 @@
                                 {%- endfor -%}
                             </ul>
                         </details>
-             		 </li>
+                    </li>
                 {%- elif link.url is matching('https?://') %}
                     <li>
                         <a href="{{ link.url }}" rel="{{ rel_attributes }}" class="external">
@@ -99,36 +99,32 @@
                     </details>
                 </li>
             {%- endif %}
-            {{ with .Site.Params.feed_filenames }}
-            {%- if config.feed_filenames | length > 1 and config.extra.nav.show_feed -%}
-                <li id="feed">
-                    <details class="closable">
-                        <summary class="circle" title="{{ macros_translate::translate(key='feed', default='Feed', language_strings=language_strings) }}">
-                            <i class="icon"></i>
-                        </summary>
-                        <ul>
-                            {%- for feed in config.feed_filenames %}
-                                <li>
-                                    <a href="{{ get_url(path=feed, lang=lang) }}" rel="{{ rel_attributes }}">
-                                        {%- if feed == "atom.xml" -%}
-                                            Atom
-                                        {%- else -%}
-                                            RSS
-                                        {%- endif -%}
-                                    </a>
-                                </li>
-                            {%- endfor -%}
-                        </ul>
-                    </details>
-                </li>
-            {%- elif config.generate_feeds and config.extra.nav.show_feed %}
-                <li id="feed">
-                    <a class="circle" href="{{ get_url(path=config.feed_filenames[0], lang=lang) }}" title="{{ macros_translate::translate(key='feed', default='Feed', language_strings=language_strings) }}">
-                        <i class="icon"></i>
-                    </a>
-                </li>
-            {%- endif %}
-            {{ end }}
+            {{- with .Site.Params.feed_filenames }}
+                {%- if . | length > 0 -%}
+                    {%- if config.extra.nav.show_feed -%}
+                        <li id="feed">
+                            <details class="closable">
+                                <summary class="circle" title="{{ macros_translate::translate(key='feed', default='Feed', language_strings=language_strings) }}">
+                                    <i class="icon"></i>
+                                </summary>
+                                <ul>
+                                    {%- for feed in . %}
+                                        <li>
+                                            <a href="{{ get_url(path=feed, lang=lang) }}" rel="{{ rel_attributes }}">
+                                                {%- if feed == "atom.xml" -%}
+                                                    Atom
+                                                {%- else -%}
+                                                    RSS
+                                                {%- endif -%}
+                                            </a>
+                                        </li>
+                                    {%- endfor -%}
+                                </ul>
+                            </details>
+                        </li>
+                    {%- endif -%}
+                {%- endif -%}
+            {{- end }}
             {%- if config.extra.source_url and config.extra.nav.show_repo %}
                 <li id="repo">
                     <a class="circle" href="{{ config.extra.source_url }}" title="{{ macros_translate::translate(key='repo', default='Repository', language_strings=language_strings) }}">
