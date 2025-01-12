@@ -53,6 +53,8 @@ My journey began with my first website, a creation that was both exciting and ex
 
 The content was housed in a container bubble, a design choice that added a playful touch to the overall aesthetic. While the site was far from perfect, it was a bold statement of my aspirations and creativity. It was a space where I could express myself and share my thoughts, albeit in a somewhat chaotic manner.
 
+<img alt="My first website!" class="no-hover" src="firstwebsite.png">
+
 ## The Second Website: A Lesson in Simplicity
 
 After some time, I decided it was time for a change. My second website was a stark contrast to the first. I opted for a minimalist design, which, in hindsight, may have been a bit too simplistic. The monospaced font gave it a utilitarian feel, and the overall layout felt more like a digital resume than a personal website. I included a CV page, thinking it would be a great way to showcase my skills and experiences. However, the lack of personality and visual interest made it feel boring and uninspired.
