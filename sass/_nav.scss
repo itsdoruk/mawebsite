@@ -192,7 +192,16 @@
 		}
 
 
-		a,
+				#feed .icon {
+			-webkit-mask-image: var(--icon-feed);
+			mask-image: var(--icon-feed);
+
+			:root[dir*="rtl"] & {
+				transform: scaleX(-1);
+			}
+		}
+
+		
 		#search button,
 		#language-switcher summary,
 		#theme-switcher summary,
