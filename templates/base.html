@@ -12,22 +12,22 @@
 {% include "partials/head.html" %}
 <body>
 {% block body %}
-    {%- if config.extra.nav.links %}
-        {% include "partials/nav.html" %}
-    {%- endif %}
-    {%- if page.extra.toc_sidebar or section.extra.toc_sidebar -%}
-        <div id="sidebar">
-            <div>
-                {%- include "partials/toc.html" -%}
-            </div>
-        </div>
-    {%- endif -%}
-    <main id="main-content">
-        {% block custom %}{% endblock custom %}
-        {% block content %}{% endblock content %}
-        {% include "partials/extra_features.html" %}
-    </main>
-    {% include "partials/footer.html" %}
+	{%- if config.extra.nav.links %}
+		{% include "partials/nav.html" %}
+	{%- endif %}
+	{%- if page.extra.toc_sidebar or section.extra.toc_sidebar -%}
+		<div id="sidebar">
+			<div>
+				{%- include "partials/toc.html" -%}
+			</div>
+		</div>
+	{%- endif -%}
+	<main id="main-content">
+		{% block custom %}{% endblock custom %}
+		{% block content %}{% endblock content %}
+		{% include "partials/extra_features.html" %}
+	</main>
+	{% include "partials/footer.html" %}
 {% endblock body %}
 </body>
 </html>

@@ -1,16 +1,23 @@
 +++
-authors = ["Doruk Sarp Aydın"]
-title = "The Evolution of My Website: A Journey Through Design and Functionality"
-description = "evolution of my website in short!"
-date = 2025-01-12
-updated = "2024-01-12"
+authors = ["Scrooge McDuck", "Darkwing Duck"]
+title = "The Quill of Duck"
+description = "This is a Duckquill post example, this post has nothing but a bunch of text and random formatting, acting like a demo."
+date = 2023-08-31
+updated = "2024-06-21"
 [taxonomies]
-tags = ["Website"]
+tags = ["Demo", "Test"]
 [extra]
 banner = "banner.webp"
 toc = true
 toc_inline = true
 toc_ordered = true
+trigger = "This page contains blackjack and hookers, and bad jokes such as this one."
+disclaimer = """
+- All tricks in this page are performed by the lab boys, don't try this at home.
+- Don't expose yourself to 4000° kelvin.
+- Don't take party escort submission position.
+- Don't interact with asbestos and moon rocks.
+"""
 [extra.comments]
 # Long thread with image
 #
@@ -40,27 +47,60 @@ toc_ordered = true
 # host = "is-a.wyvern.rip"
 # user = "volpeon"
 # id = "9qy755nsnu2c0hbc"
-host = "vmst.io"
-user = "doruk"
-id = "113811800153174819"
+host = "toot.community"
+user = "sungsphinx"
+id = "111789185826519979"
 +++
 
-Creating a website is much like embarking on a journey; it evolves, adapts, and reflects the growth of its creator. As I sit down to write this blog post for the first time on my third website, I can’t help but reminisce about the evolution of my online presence. From my humble beginnings with a simple AI-generated design to the more sophisticated platform I have today, each iteration has taught me valuable lessons about aesthetics, user experience, and the importance of content.
+{% alert(tip=true) %}
+Recommended banner dimensions are 2:1 aspect ratio and 1920x960 resolution.  
+Other sizes will also work, but will be cut off at the bottom/won't be high enough.
+{% end %}
 
-## The First Website: A Bold Beginning
+## The what?
 
-My journey began with my first website, a creation that was both exciting and experimental. Built using AI and HTML, it featured a striking background image of a mountain in Antarctica. The choice of this image was intentional; I wanted to convey a sense of adventure and exploration. The text was rendered in a vibrant light/neon green, which not only stood out against the icy backdrop but also gave the site a modern, tech-savvy feel. 
+This is a Duckquill post example, this post has nothing but a bunch of text and random formatting, acting like a demo.
 
-The content was housed in a container bubble, a design choice that added a playful touch to the overall aesthetic. While the site was far from perfect, it was a bold statement of my aspirations and creativity. It was a space where I could express myself and share my thoughts, albeit in a somewhat chaotic manner.
+## Some info
 
-## The Second Website: A Lesson in Simplicity
+Well, open this file and look at how it's made, it includes all the essential front matter stuff.
 
-After some time, I decided it was time for a change. My second website was a stark contrast to the first. I opted for a minimalist design, which, in hindsight, may have been a bit too simplistic. The monospaced font gave it a utilitarian feel, and the overall layout felt more like a digital resume than a personal website. I included a CV page, thinking it would be a great way to showcase my skills and experiences. However, the lack of personality and visual interest made it feel boring and uninspired.
+Now to the _Stanley!_
 
-This phase taught me an important lesson: while simplicity can be effective, it should not come at the cost of creativity and engagement. I realized that a website should not only serve as a portfolio but also as a reflection of who I am and what I stand for.
+## The _Stanley_!
 
-## The Third Website: A New Chapter
+This is the story of a man named _Stanley_.
 
-Now, as I write this blog post on my third website, I feel a renewed sense of purpose and excitement. This iteration combines the lessons learned from both previous versions. The design is vibrant and engaging, yet it maintains a level of professionalism that reflects my growth. I’ve incorporated elements that resonate with my personality, while also ensuring that the user experience is seamless and enjoyable.
+_Stanley_ worked for a company in a big building where he was Employee `#427`.
 
-This website is not just a platform for showcasing my work; it’s a space for storytelling, sharing ideas, and connecting with others. The blog section is a new addition, and I’m thrilled to finally be writing content that reflects my thoughts and experiences. I envision this blog as a place where I can explore various topics, share insights, and engage with my audience in meaningful ways.
+<figure>
+
+![The Office](the-office.webp)
+<figcaption>The Office where Stanley works, it has yellow floor and beige walls</figcaption>
+</figure>
+
+Employee `#427`'s job was simple: he sat at his desk in Room `427` and he pushed buttons on a keyboard.
+
+Orders came to him through a monitor on his desk telling him what buttons to push, how long to push them, and in what order.
+
+This is what Employee `#427` did every day of every month of every year, and although others may have considered it soul rending,
+
+_Stanley_ relished every moment that the orders came in, as though he had been made exactly for this job.
+
+And _Stanley_ was happy.
+
+And then one day, something very peculiar happened.
+
+Something that would forever change _Stanley_;
+
+Something he would never quite forget.
+
+He had been at his desk for nearly an hour when he had realized not one single order had arrived on the monitor for him to follow.
+
+No one had shown up to give him instructions, call a meeting, or even say 'hi'. Never in all his years at the company had this happened, this complete isolation.
+
+Something was very clearly wrong. Shocked, frozen solid, _Stanley_ found himself unable to move for the longest time.
+
+But as he came to his wits and regained his senses, he got up from his desk and stepped out of his office.
+
+All of his co-workers were gone. What could it mean? Stanley decided to go to the meeting room; perhaps he had simply missed a memo.
