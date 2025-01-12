@@ -101,23 +101,27 @@
             {%- endif %}
 {%- if config.feed_filenames | length > 0 -%}
     {%- if config.extra.nav.show_feed -%}
-                    <li id="feed">
-                        <details class="closable">
-                            <summary class="circle" title="{{ macros_translate::translate(key='feed', default='Feed', language_strings=language_strings) }}">
-                                <i class="icon"></i>
-                            </summary>
-                            <ul>
-                               {%- for feed in config.feed_filenames -%}
-                              <li>
-                                    <a href="{{ get_url(path=feed , lang=lang) }}" rel="{{ rel_attributes }}">
-                                         {%- if feed == "atom.xml" -%}
-                                              Atom
-                                         {%- else -%}
-                                              RSS
-                                        {%- endif -%}
-                                    </a>
-                               </li>
-                              {%- endfor -%}
+        <li id="feed">
+            <details class="closable">
+                <summary class="circle" title="{{ macros_translate::translate(key='feed', default='Feed', language_strings=language_strings) }}">
+                    <i class="icon"></i>
+                </summary>
+                <ul>
+                    {%- for feed in config.feed_filenames -%}
+                        <li>
+                            <a href="{{ get_url(path=feed , lang=lang) }}" rel="{{ rel_attributes }}">
+                                {%- if feed == "atom.xml" -%}
+                                    Atom
+                                {%- else -%}
+                                    RSS
+                                {%- endif -%}
+                            </a>
+                        </li>
+                    {%- endfor -%}
+                </ul>
+            </details>
+        </li>
+    {%- endif -%}
                         </details>
                     </li>
                 {%- endif -%}
