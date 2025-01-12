@@ -3,7 +3,7 @@ insert_anchor_links = "left"
 title = "Home"
 +++
 
-![](processed_images/istanbul.jpg)
+![](public/processed_images/istanbul.jpg)
 
 # **Hello, World!**
 
@@ -15,7 +15,7 @@ When I was 4 or 5, I remember looking inside of PCBs inside of clocks, toys and 
 
 I love taking pictures of my cats!
 
-<img class="rounded" style="margin-block-end: 0; border-radius: 0;" alt="Quill and a parchment" src="processed_images/leo.jpg" />
+<img class="rounded" style="margin-block-end: 0; border-radius: 0;" alt="Leo" src="public/processed_images/leo.jpg" />
 </aside>
 In addition to coding, I have several hobbies that I enjoy. I love studying and constantly seek to learn new things. Playing basketball is another passion of mine; I enjoy the competition and teamwork involved. I also play the piano and guitar, which allows me to express myself through music. Tennis is another sport I enjoy, as it keeps me active and focused. Lastly, I have a love for photography, capturing moments and exploring the world through my camera. These hobbies complement my coding journey and keep me engaged in various ways.
 
