@@ -99,8 +99,8 @@
                     </details>
                 </li>
             {%- endif %}
-            {%- if .Site.Params.feed_filenames | length > 0 -%}
-                {%- if config.extra.nav.show_feed -%}
+{%- if config.feed_filenames | length > 0 -%}
+    {%- if config.extra.nav.show_feed -%}
                     <li id="feed">
                         <details class="closable">
                             <summary class="circle" title="{{ macros_translate::translate(key='feed', default='Feed', language_strings=language_strings) }}">
