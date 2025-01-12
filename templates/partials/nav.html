@@ -107,18 +107,17 @@
                                 <i class="icon"></i>
                             </summary>
                             <ul>
-                                {%- for feed_filename in .Site.Params.feed_filenames -%}
-                                     <li>
-                                         <a href="{{ get_url(path=feed_filename , lang=lang) }}" rel="{{ rel_attributes }}">
-                                             {%- if feed_filename == "atom.xml" -%}
-                                                 Atom
-                                             {%- else -%}
+                               {%- for feed_filename in site.Params.feed_filenames -%}
+                              <li>
+                                        <a href="{{ get_url(path=feed_filename , lang=lang) }}" rel="{{ rel_attributes }}">
+                                            {%- if feed_filename == "atom.xml" -%}
+                                             Atom
+                                           {%- else -%}
                                                 RSS
-                                             {%- endif -%}
-                                        </a>
+                                          {%- endif -%}
+                                       </a>
                                     </li>
-                               {%- endfor -%}
-                            </ul>
+                             {%- endfor -%}
                         </details>
                     </li>
                 {%- endif -%}
