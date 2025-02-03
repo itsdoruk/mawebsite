@@ -1,4 +1,4 @@
-![my website!!!]([http://url/to/img.png](https://api.pikwy.com/web/67a12bcfae5e944f077a43cd.jpg
+![my website!!!]([https://api.pikwy.com/web/67a12bcfae5e944f077a43cd.jpg](https://api.pikwy.com/web/67a12bcfae5e944f077a43cd.jpg)
 ))
 # My Website
 powered with zola and duckquill, a modern blog-oriented zola theme.
