@@ -59,7 +59,7 @@ links = [
 	{ url = "@/blog/_index.md", name = "blog" },
 		{ name = "my socials", menu = [
 		{ url = "https://github.com/itsdoruk", name = "github" },
-		{ url = "https://instagram.com/doruktheory", name = "instagram" },
+		{ url = "https://instagram.com/ayd.drk", name = "instagram" },
 		{ url = "https://vmst.io/@doruk", name = "mastodon" },
 	] }
 ]
